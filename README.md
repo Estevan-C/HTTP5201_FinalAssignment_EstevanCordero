@@ -3,4 +3,4 @@
 ## Netify
 - Build: npm run build
 - Publish Directory: dist
-- Link: 
+- Link: https://final-assignment.netlify.app/
