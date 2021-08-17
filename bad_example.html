@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="/main.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css">
+    <link rel="stylesheet" href="/midnight-green.scss">
+    <title>Bad Example</title>
+  </head>
+  <body>
+    <div id="nav"></div>
+    <div class="header"><h1>Bad Example</h1></div>
+    <section container>
+      <h3>Here we have examples of what should not be done:</h3>
+      <ul>
+        <li>Leaving personal/important comments containing information that should not be public</li>
+        <!--Hey Frank I forgot my password for my admin account. I remember the username was bob123.-->
+        <li>Having JS code included in the html code.</li>
+        <li>Using password harsh found from google.</li>
+      </ul>
+      <script>
+        alert("Hope nobody inspect the page.");
+      </script>
+      <h4>If you encounter any situations as demonstrated notify the team lead, and be sure to avoid such practice.</h4>
+    </section>
+  </body>
+</html>
